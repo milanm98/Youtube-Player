@@ -8,7 +8,6 @@ import time
 
 options = webdriver.ChromeOptions()
 options.add_argument('--disable-gpu')
-options.add_argument("--window-position=-32000,-32000");
 
 Song = str(input())
 
